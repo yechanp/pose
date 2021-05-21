@@ -4,5 +4,5 @@ REM python scripts/demo_inference_json.py --cfg configs/coco/resnet/256x192_res5
 REM @echo OFF
 for %%f in (examples\video\*) do ( 
 ECHO %%f
-python scripts/clip_video_junho.py --video %%f --outdir ./results/res50_json/ --detfile results/res50/video/%%~nxf.json 
+python scripts/clip_video_junho.py --video %%f  --detfile results/res50/video/%%~nxf.json 
 )
